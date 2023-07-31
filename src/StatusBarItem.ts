@@ -4,7 +4,7 @@ import { getRootConfig } from './config'
 
 export class StatusBarItem extends vscode.Disposable {
   public item = vscode.window.createStatusBarItem(
-    vscode.StatusBarAlignment.Left,
+    vscode.StatusBarAlignment.Right,
     5,
   )
 
